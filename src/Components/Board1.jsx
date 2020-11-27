@@ -11,13 +11,13 @@ let Board1 = () => {
 		
 			<Layout>
 				<div className={Styles.main}>
-				<input type="text" name="" id="" className={Styles.search} placeholder={`Search`}/>
+				<input type="text" name="" className={Styles.search} placeholder={`Search`}/>
 				<SalesBoard></SalesBoard>
 				<Notification></Notification>
-				<div class={Styles.bottom_row}>
+				<div className={Styles.bottom_row}>
 				<Notepad></Notepad>
 				<div className={Styles.column1}>
-					<img className={Styles.graph} src={Graph}/>
+					<img className={Styles.graph} src={Graph} alt="im"/>
 					<div className={Styles.inbox}>
 						<span className={Styles.inbox_text}>Inbox</span>
 						<span className={Styles.inbox_number}>23</span>
@@ -26,22 +26,23 @@ let Board1 = () => {
 				<div className={Styles.column2}>
 					<div className={Styles.data}>
 						<div className={Styles.data_lead}>This Month</div>
-						<div class={Styles.data_body}>
+						<div className={Styles.data_body}>
 							<div className={Styles.data_value}>+7.8%</div>
-							<img src={Graph2} className={Styles.data_graph} alt=""/>
+							<img src={Graph2} className={Styles.data_graph} alt="im1"/>
 						</div>
 					</div>
 					<div className={Styles.data}>
 						<div className={Styles.data_lead}>Last Month</div>
-						<div class={Styles.data_body}>
+						<div className={Styles.data_body}>
 							<div className={Styles.data_value}>+67.4%</div>
-							<img src={Graph3} className={Styles.data_graph} alt=""/>
+							<img src={Graph3} className={Styles.data_graph} alt="im2"/>
 						</div>
 					</div>
 				</div>
 				</div>
 				</div>
-			</Layout>	
+			</Layout>
+
 		)
 }
 
