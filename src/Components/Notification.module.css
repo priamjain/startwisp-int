@@ -1,0 +1,79 @@
+.notifications{
+	position: absolute;
+	width: 331px;
+	height: 624px;
+	left: 1438px;
+	top: 158px;
+
+	background: #FFFFFF;
+	border-radius: 0px 0px 15px 15px;
+}
+.noti_tab{
+	padding: 0;
+	position: absolute;
+	width: 168px;
+	height: 53px;
+	left: 1438px;
+	top: 105px;
+	border: 0;
+	background: #FFFFFF;
+	border-radius: 15px 15px 0px 0px;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #494949;
+
+}
+.event_tab{
+	position: absolute;
+	border: 0;
+	width: 179px;
+	height: 53px;
+	left: 1590px;
+	top: 105px;
+	border-radius: 0px 15px 0px 0px;
+	background: #FAFAFA;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #B0B0B0;
+
+}
+.noti_content{
+	position: absolute;
+	width: 303px;
+	height: 599px;
+	left: 1453px;
+	top: 172px;
+	z-index: 1;
+	background: #FFFFFF;
+	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 15px;
+}
+.noti_content > ul{
+	padding: 19px 25px;
+	list-style-type: none;
+}
+.viewall{
+	border: 0;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 11px;
+	padding-top: 3px;
+	text-align: center;
+	color: #756F6F;
+	position: absolute;
+	width: 71px;
+	height: 17px;
+	left: 1569px;
+	top: 750px;
+	background: #F8F8F8;
+	border-radius: 15px 15px 0px 0px;
+	z-index: 2;
+}

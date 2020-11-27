@@ -1,0 +1,62 @@
+.main{
+	padding: 42px 78px;
+	background-color: #E5E5E5;
+	width: 100%;
+}
+.search{
+	line-height: 20px;
+	padding-left: 50px;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+	color: #AAAAAA;
+	height: 36px;
+	width: 836px;
+	background-color: #D0D0D0;
+	border: 2px solid #E2E2E2;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 12px;
+	margin-bottom: 27px;
+	margin-left: 10px;
+}
+.sales{
+	display: flex;
+	height: 495px;
+	width: 1029px;
+	left: 0px;
+	top: 0px;
+	border-radius: 15px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 15px;
+}
+.sales_data{
+	width: 846px;
+}
+.sales_anal{
+	border-radius: 0 15px 15px 0;
+	width: 183px;
+	height: 100%;
+	background-color: red;
+}
+.sales_head{
+
+	height: 36px;
+	margin: 21px;
+
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 36px;
+	/* identical to box height */
+
+
+	color: #593636;
+}
+.sales_month{
+	color: #D0D0D0;
+}
