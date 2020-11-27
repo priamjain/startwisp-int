@@ -1,3 +1,9 @@
 .display{
+	min-height: 133.4vh ;
+	height: 100%;
+	zoom: 75%;
 	display: flex;	
+}
+input{
+	outline: none;
 }

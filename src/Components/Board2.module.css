@@ -1,0 +1,56 @@
+.main{
+	min-height: 133.4vh ;
+	height: 100%;
+	padding: 42px 78px;
+	background-color: #E5E5E5;
+	width: 100%;
+}
+.post_box{
+	position: absolute;
+	width: 1283px;
+	height: 204px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.post_input{
+	padding: 18px 0 0 24px;
+	resize:none;
+	margin: 18px;
+	outline: none;
+	border:none;
+	width: 1031.97px;
+	height: 98px;
+
+	background: #FAFAFA;
+	border-radius: 15px;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	color: #BABABA;
+}
+.options{
+	margin-left: 61px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.cancel{
+
+	height: 17px;
+
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+
+	color: #EF3E36;
+}
+.attach{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+
+	background: #FFC480;
+}

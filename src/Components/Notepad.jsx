@@ -35,7 +35,7 @@ let Notepad = () =>{
 				<div className={Styles.element_body}>Title</div>
 				<input className={`${Styles.input_title} ${Styles.input}`} type="text" name="title" value={title} onChange={(e)=>setTitle(e.target.value)} id=""/>
 				<div className={Styles.element_body}>Note</div>
-				<textarea className={`${Styles.input}`} name="para" id="" cols="30" rows="10" value={note} onChange={(e)=>setNote(e.target.value)}></textarea>
+				<textarea className={`${Styles.input} ${Styles.input_note}`} name="para" id="" cols="30" rows="10" value={note} onChange={(e)=>setNote(e.target.value)}></textarea>
 				<button onClick={(e)=>{setNp(inp=>!inp)}} className={`${Styles.sign} ${Styles.cross_sign} ${!np?(Styles.show):(Styles.hide)}`}>x</button>
 			</div>
 			<div>
