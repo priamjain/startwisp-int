@@ -1,0 +1,58 @@
+.main{
+	display: flex;
+	flex-direction: column;
+
+	width: 396px;
+	height: 356px;
+	background: #FFFFFF;
+	border-radius: 15px;
+}
+.head{
+	float: left;
+	margin: 29px 0 0 29px;
+	width: 143px;
+	height: 49px;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+
+	color: #593636;
+}
+.list{
+	margin-left: 28px;
+	list-style-type: none;
+}
+.list_element{
+	margin-bottom: 20px;
+	border: none;
+}
+.element_body{ 
+	width: 353px;
+	height: 32px;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+}
+
+.add_sign{
+	position: absolute;
+	left: 650px;
+	top: 920px;
+	border:none;
+	text-align: center;
+	border-radius: 29px;
+	width: 58px;
+	height: 58px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	color: #FFF5F5;
+	background: #FF6C40;
+}

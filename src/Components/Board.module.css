@@ -1,4 +1,5 @@
 .main{
+	height: 100%;
 	padding: 42px 78px;
 	background-color: #E5E5E5;
 	width: 100%;
@@ -21,4 +22,98 @@
 	border-radius: 12px;
 	margin-bottom: 27px;
 	margin-left: 10px;
+}
+.bottom_row{
+	margin-top: 34px;
+	display: flex;
+}
+.graph{
+	height:234px;
+	width:305px;
+}
+.column1{
+	margin-left: 21px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.inbox{
+	display: flex;
+	justify-content: space-between;
+	height: 103px;
+	width: 300px;
+	border-radius: 15px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 15px;
+}
+.inbox_text{
+	float: left;
+	margin:43px 31px;
+	height: 24px;
+
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+
+	color: #929292;
+}
+.inbox_number{
+	margin: 28px 15px;
+	height: 48px;
+
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 48px;
+	/* identical to box height */
+
+
+	color: #593636;
+}
+
+.data{
+	margin-bottom: 30px;
+	width: 255px;
+	height: 117px;
+	border-radius: 15px;
+	background: #FFFFFF;
+
+}
+.data_lead{
+	margin: auto;
+	padding: 8px;
+	text-align: center;
+	width:90%;
+	font-family: Comfortaa;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	border-bottom: 0.5px solid #707070;
+	color: #000000;
+}
+
+.data_value{
+
+	font-family: Comfortaa;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+
+	color: #0F26F2;
+}
+.data_body{
+		margin: 20px;
+	justify-content: space-between;
+	display: flex;
+}
+.data_graph{
+	height: 30px;
+	width: 100px;
 }

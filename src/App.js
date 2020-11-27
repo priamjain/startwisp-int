@@ -2,7 +2,7 @@ import Board1 from './Components/Board1'
 
 function App() {
   return (
-    <div>
+    <div >
       <Board1/>
     </div>
   );
