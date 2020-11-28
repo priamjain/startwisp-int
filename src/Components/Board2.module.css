@@ -6,6 +6,7 @@
 	width: 100%;
 }
 .post_box{
+	padding: 20px;
 	position: absolute;
 	width: 1283px;
 	height: 204px;
@@ -47,10 +48,60 @@
 
 	color: #EF3E36;
 }
+.more_options{
+	display: flex;
+}
 .attach{
 	width: 50px;
 	height: 50px;
 	border-radius: 25px;
-
 	background: #FFC480;
+	position: relative;
+	margin-bottom: 20px;
+	margin-right: 28px;
+}
+
+.icon{
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+}
+
+.share{
+	display: flex;
+	justify-content: space-between;
+	width: 180.03px;
+	height: 50px;
+	background: #FF6C40;
+	border-radius: 11px;
+	
+}
+
+.share_text{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	/* identical to box height */
+
+
+	color: #F2D8D5;
+}
+.share_text > p{
+	margin:15px 35px;
+}
+.share_dropdown{
+	position: relative;
+	width: 39.69px;
+	height: 50px;
+	background: #FFC480;
+	border-radius: 0 11px 11px 0;
 }
