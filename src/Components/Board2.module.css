@@ -6,8 +6,9 @@
 	width: 100%;
 }
 .post_box{
+	margin-bottom: 20px;
+	display: inline-block;
 	padding: 20px;
-	position: absolute;
 	width: 1283px;
 	height: 204px;
 	background: #FFFFFF;

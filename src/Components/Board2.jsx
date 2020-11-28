@@ -3,8 +3,10 @@ import Styles from './Board2.module.css'
 import {useState} from 'react'
 import Attach from './attach.png'
 import Share_dd from './share_dd.png'
+import Post from './Post'
 let Board2 = () =>{
 	const [text,setText] = useState("");
+	const [posts,setPosts] = useState([]); 
 	return(
 		<Layout>
 			<div className={Styles.main}>
@@ -15,16 +17,24 @@ let Board2 = () =>{
 					<div className={Styles.more_options}>
 						<div className={Styles.attach}><img className={Styles.icon} src={Attach} alt="attach"/></div>
 						<div className={Styles.share}>
-							<div className={Styles.share_text}><p>Share</p></div>
+							<div className={Styles.share_text} onClick={e=>{setPosts([...posts,text]);setText("");}}><p>Share</p></div>
 							<div className={Styles.share_dropdown}>
-								<img src={Share_dd} className={Styles.icon}/>
+								<img src={Share_dd} className={Styles.icon} alt="Share logo"/>
 							</div>
 						</div>
 					</div>
 
 				</div>
 			</div>
-			
+			<Post key="demo" state={true} 
+			post='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'>
+			</Post>
+			{
+				posts.map((post,index)=>{
+						return(<Post key={index} state={false} post={post}></Post>);
+					
+				})
+			}
 			</div>
 		</Layout>
 		)

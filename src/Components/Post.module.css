@@ -1,0 +1,48 @@
+.post{
+	margin: 14px 0;
+	width: 1283px;
+	background: #FFFFFF;
+	border-radius: 15px;
+	padding: 25px;
+}
+.main{
+	display: flex;
+}
+.user_img{
+	width: 59.54px;
+	height: 59.54px;
+	border-radius: 15px;
+}
+.body{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+
+	color: #000000;
+}
+.comments{
+	display: flex;
+	margin-top: 20px;
+}
+.this_user{
+	height: 42.52617645263672px;
+	width: 42.52617645263672px;
+	border-radius: 10px;
+
+}
+.input{
+	width: 100%;
+	height: 32px;
+	outline: none;
+	border:none;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	color: #D3D3D3;
+}
+.hide{
+	display: none;
+}
