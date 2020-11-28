@@ -1,3 +1,7 @@
+button{
+	outline: none;
+	cursor: pointer;
+}
 .notifications{
 	position: absolute;
 	width: 331px;

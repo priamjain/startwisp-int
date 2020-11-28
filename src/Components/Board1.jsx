@@ -9,7 +9,7 @@ import Graph3 from './graph3.png'
 let Board1 = () => {
 	return(
 		
-			<Layout>
+			<Layout page="1">
 				<div className={Styles.main}>
 				<input type="text" name="" className={Styles.search} placeholder={`Search`}/>
 				<SalesBoard></SalesBoard>

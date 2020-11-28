@@ -3,7 +3,7 @@ import Styles from './Layout.module.css'
 let Layout = (props) =>{
 	return(
 		<div className={Styles.display}>
-			<Sidebar></Sidebar>
+			<Sidebar page={props.page}></Sidebar>
 			{props.children}
 		</div>
 		)

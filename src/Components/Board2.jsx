@@ -8,7 +8,7 @@ let Board2 = () =>{
 	const [text,setText] = useState("");
 	const [posts,setPosts] = useState([]); 
 	return(
-		<Layout>
+		<Layout page="2">
 			<div className={Styles.main}>
 			<div className={Styles.post_box}>
 				<textarea cols="30" rows="10" type="text" value={text} onChange={e=>setText(e.target.value)} className={Styles.post_input} placeholder="Share Something"/>
@@ -26,15 +26,21 @@ let Board2 = () =>{
 
 				</div>
 			</div>
-			<Post key="demo" state={true} 
-			post='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'>
-			</Post>
+			
 			{
-				posts.map((post,index)=>{
+				posts.slice(0).reverse().map((post,index)=>{
+					if(index===0){
+						return(<Post key={index} state={true} post={post}></Post>);
+					}
+					else{
 						return(<Post key={index} state={false} post={post}></Post>);
+					}
 					
 				})
 			}
+			<Post key="demo" state={true} 
+			post='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'>
+			</Post>
 			</div>
 		</Layout>
 		)
